@@ -1,6 +1,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bingyu Shen</title> 
 
 <!-- Google Analytics -->
@@ -24,7 +25,7 @@ body {
   background-color : #FFFFFF;
   /*background-color : #f7ffe6#f0f5f5;*/
 	margin: 3em auto;
-	width: 800px;
+	width: 1000px;
 }
 ul {
 	list-style-type: none;
@@ -65,6 +66,14 @@ dd {
   margin: 0
 }
 
+@media screen and (max-width: 701px) {
+  #div-mobile {
+    display: none;
+  }
+  #div-desktop {
+    display: block;
+  }
+}
 	</style>
 </head>
 
@@ -78,7 +87,7 @@ dd {
 <table> 
 <tbody><tr> 
 <td>
-<div style="padding: 5px">
+<div style="padding: 5px" id="div-mobile">
 <img src="./files/me.jpg" width="200">
 </div>
 </td> 
@@ -109,25 +118,31 @@ Here is my <a href="#">CV</a>.
 </div>
  
 
-<!-- <div align="left"> -->
+<!-- <div align="left">
   <h2>News</h2> 
   <ul>
       <li>
+
       <dl>
-          <dt>Aug 2018</dt>
-          <dd>Released a lite Android app to help check detailed permissions of installed apps. Give it a try! [<a href="https://play.google.com/store/apps/details?id=com.sbysoft.perchecker">Google play</a>] [<a href="https://permissionchecker.github.io/perchecker-app.apk">apk</a>][<a href="https://permissionchecker.github.io/">description</a>]</dd>
+          <dt>Sept 2019</dt>
+          <dd>I will TA for CSE 221 this quarter!</dd>
       </dl>
+
+        <dl>
+            <dt>Aug 2018</dt>
+            <dd>Released a lite Android app to help check detailed permissions of installed apps. Give it a try! [<a href="https://play.google.com/store/apps/details?id=com.sbysoft.perchecker">Google play</a>] [<a href="https://permissionchecker.github.io/perchecker-app.apk">apk</a>][<a href="https://permissionchecker.github.io/">description</a>]</dd>
+        </dl>
 
 </li>
 </ul>
-  <!-- </div> -->
+</div> -->
   
   
 <div align="left">
-<h2>About Me</h2> 
+<h2>about</h2> 
 <ul>
   <li>
-	  I am a <del>first</del> second-year Ph.D. student at <a href="https://www.sysnet.ucsd.edu/sysnet/">sysnet</a> and <a href="http://opera.ucsd.edu/">opera</a> Group, UCSD, working with Prof. <a href="https://cseweb.ucsd.edu/~yyzhou/">Yuanyuan Zhou</a>. Before coming to UCSD, I received my bachelor degree from Shanghai Jiao Tong University (SJTU).</li> <br>
+	  I am a <del>first</del> <del>second</del> third-year Ph.D. student at <a href="https://www.sysnet.ucsd.edu/sysnet/">sysnet</a> and <a href="http://opera.ucsd.edu/">opera</a> Group, UCSD, working with Prof. <a href="https://cseweb.ucsd.edu/~yyzhou/">Yuanyuan Zhou</a>. Before coming to UCSD, I received my bachelor degree from Shanghai Jiao Tong University (SJTU).</li> <br>
 <li>
 My current research interests are making computer systems secure and reliable. I also enjoy inter-discipline study, like HCI, machine learning, etc.
 </li>
@@ -135,21 +150,45 @@ My current research interests are making computer systems secure and reliable. I
 </div>
 
 <div align="left">
-<h2>Publications</h2> 
+<h2>publications</h2> 
 <ul>
   <li>
-    <b>Offloading in HCNs: Congestion-Aware Network Selection and User Incentive Design</b> <br>
-     IEEE Transactions on Wireless Communications ( Volume: 16, Issue: 10, Oct. 2017 ) <br>
+    <b>Towards Continuous Access Control Validation and Forensics</b> [<a href="#">pdf</a>]<br>
+    Chengcheng Xiang, Yudong Wu, <b>Bingyu Shen</b>, Mingyao Shen, Tianyin Xu, Yuanyuan Zhou, Cindy Moore, Xinxin Jin, Tianwei Sheng.<br>
+    
+    Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security <b>(CCS'19)</b> <br>
+  </li>
+  <br>
+  <li>
+    <b>Offloading in HCNs: Congestion-Aware Network Selection and User Incentive Design</b> [<a href="./files/offloading.pdf">pdf</a>] <br>
     Yuqing Li, <b>Bingyu Shen</b>, Jinbei Zhang, Xiaoying Gan, Jingchao Wang, Xinbing Wang.<br>
-    [<a href="./files/offloading.pdf">pdf</a>]
+    IEEE Transactions on Wireless Communications ( Volume: 16, Issue: 10, Oct. 2017 ) <br>
+
   </li>
 </ul>
 
 
 </div>
 
+
+
 <div align="left">
-<h2>Misc</h2>
+  <h2>teaching</h2> 
+  <ul>
+    <li> 
+      CSE 221: Graduate Operating Systems, <a href="https://cseweb.ucsd.edu/classes/fa19/cse221-a/">Fall 2019</a>
+    </li>
+    <li> 
+      CSE 120: Principles of Computer Operating Systems, <a href="https://cseweb.ucsd.edu/classes/fa18/cse120-a/">Fall 2018</a>  
+    </li>
+  </ul>
+  </div>
+
+
+
+
+<div align="left">
+<h2>misc</h2>
 <ul>
   <li> <b class="chinese">申炳宇</b> is my name in Chinese. I enjoy hiking, board games, and ping-pong.
   </li>
