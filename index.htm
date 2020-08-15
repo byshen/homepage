@@ -19,13 +19,14 @@ ga('send', 'pageview');
 <link rel="icon" type="image/png" href="https://cse.ucsd.edu/sites/cse/files/cse/zeropoint_favicon.png">
 <style type="text/css">
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 /*@import url(//fonts.googleapis.com/earlyaccess/notosansscsliced.css);*/
 body {
-	font-family: 'Varela Round',serif;
+	font-family: Varela Round, Source Sans Pro, Arial, serif;
   background-color : #FFFFFF;
   /*background-color : #f7ffe6#f0f5f5;*/
 	margin: 3em auto;
-  width: 62%;
+  width: 50em;
 }
 ul {
 	list-style-type: none;
@@ -38,6 +39,11 @@ h2 {
 }
 .chinese {
   font-family: "STKaiti", "KaiTi","Microsoft YaHei" ;
+}
+.title {
+  color:#000099;
+	margin-top: 2em;
+  margin-left: 0em;
 }
 .hide {
   display:none;
@@ -148,7 +154,7 @@ Here is my <a href="#">CV</a>.
 <h2>about</h2> 
 <ul>
   <li>
-	  I am a <del>first</del> <del>second</del> third-year Ph.D. student at <a href="https://www.sysnet.ucsd.edu/sysnet/">sysnet</a> and <a href="http://opera.ucsd.edu/">opera</a> Group, UCSD, working with Prof. <a href="https://cseweb.ucsd.edu/~yyzhou/">Yuanyuan Zhou</a>. Before coming to UCSD, I received my bachelor degree from Shanghai Jiao Tong University (SJTU).</li> <br>
+	  I am a Ph.D. student at <a href="https://www.sysnet.ucsd.edu/sysnet/">sysnet</a> and <a href="http://opera.ucsd.edu/">opera</a> Group, UCSD, working with Prof. <a href="https://cseweb.ucsd.edu/~yyzhou/">Yuanyuan Zhou</a>. Before coming to UCSD, I received my bachelor degree from Shanghai Jiao Tong University (SJTU).</li> <br>
 <li>
 My current research interests are making computer systems secure and reliable. I also enjoy inter-discipline study, like HCI, machine learning, etc.
 </li>
@@ -159,14 +165,25 @@ My current research interests are making computer systems secure and reliable. I
 <h2>publications</h2> 
 <ul>
   <li>
-    <b>Towards Continuous Access Control Validation and Forensics</b> [<a href="#">pdf</a>]<br>
+    <b class=title>Can Systems Explain Permissions Better? Understanding Users' Misperceptions under Smartphone Runtime Permission Model</b>
+    <br>
+    Bingyu Shen, Lili Wei, Chengcheng Xiang, Yudong Wu, Mingyao Shen, Yuanyuan Zhou, Xinxin Jin.
+    <br>
+    To Appear in the 30th USENIX Security Symposium (Security'21)
+  </li>
+  <br>
+  <li>
+    <b class=title>Towards Continuous Access Control Validation and Forensics</b> 
+    [<a href="http://opera.ucsd.edu/paper/pdiff.pdf">pdf</a>]
+    [<a href="https://github.com/ucsdopera/TimeChangingDecisionTree">code</a>]    
+    <br>
     Chengcheng Xiang, Yudong Wu, <b>Bingyu Shen</b>, Mingyao Shen, Tianyin Xu, Yuanyuan Zhou, Cindy Moore, Xinxin Jin, Tianwei Sheng.<br>
     
     Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security <b>(CCS'19)</b> <br>
   </li>
   <br>
   <li>
-    <b>Offloading in HCNs: Congestion-Aware Network Selection and User Incentive Design</b> [<a href="./files/offloading.pdf">pdf</a>] <br>
+    <b class=title>Offloading in HCNs: Congestion-Aware Network Selection and User Incentive Design</b> [<a href="https://ieeexplore.ieee.org/abstract/document/7974775">pdf</a>] <br>
     Yuqing Li, <b>Bingyu Shen</b>, Jinbei Zhang, Xiaoying Gan, Jingchao Wang, Xinbing Wang.<br>
     IEEE Transactions on Wireless Communications ( Volume: 16, Issue: 10, Oct. 2017 ) <br>
 
